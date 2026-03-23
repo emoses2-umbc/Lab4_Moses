@@ -1,4 +1,4 @@
-# Lab 4: Inter Summation
+# Lab 4: Integer Summation
 
 This lab takes in a file in C and stores integers in an array. In assembly, we add up all the numbers and store the result for the C program to print the sum.
 
