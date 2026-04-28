@@ -11,7 +11,7 @@ main.o: main.c
 	$(CC) $(CFLAGS) -c main.c
 
 sum.o: sum.s
-	$(CC) -m32 -c sum.s
+	as --32 sum.s -o sum.o
 
 clean:
 	rm -f *.o $(TARGET)
