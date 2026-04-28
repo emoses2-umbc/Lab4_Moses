@@ -4,4 +4,8 @@ This lab takes in a file in C and stores integers in an array. In assembly, we a
 
 In the repository, there's the data file for the example, the C file, the assembly, and a Makefile that creates everything.
 
-To compile the program, simply run the Makefile and run the lab with ./proj <data>
+To compile the program, simply run the Makefile and run the lab with ./proj <data> after installing this package in the codespace with the following commands:
+```
+sudo apt update
+sudo apt install libc6-dev-i386
+```
