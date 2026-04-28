@@ -1,6 +1,6 @@
 CC     = gcc
 CFLAGS = -Wall -m32 -g
-TARGET = proj
+TARGET = lab4
 
 all: $(TARGET)
 
